@@ -93,6 +93,7 @@ struct {
     { "net.vsnet1",       AID_RADIO,    AID_RADIO },
     { "net.vsnet2",       AID_RADIO,    AID_RADIO },
     { "net.vsnet3",       AID_RADIO,    AID_RADIO },
+    { "libcamera.",       AID_SYSTEM,   1000 },
     { NULL, 0, 0 }
 };
 
