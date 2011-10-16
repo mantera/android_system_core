@@ -10,7 +10,6 @@ struct symbol {
 struct symbol_table {
     struct symbol *symbols;
     int num_symbols;
-    char *name;
 };
 
 struct symbol_table *symbol_table_create(const char *filename);
