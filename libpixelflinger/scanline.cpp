@@ -245,6 +245,12 @@ static void pick_scanline(context_t* c)
         }
     }
 
+#if DEBUG_NEEDS
+    LOGI("Needs: n=0x%08x p=0x%08x t0=0x%08x t1=0x%08x",
+         c->state.needs.n, c->state.needs.p,
+         c->state.needs.t[0], c->state.needs.t[1]);
+#endif
+
 #endif // DEBUG__CODEGEN_ONLY
 
     c->init_y = init_y;
